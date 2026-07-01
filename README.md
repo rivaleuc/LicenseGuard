@@ -12,8 +12,8 @@ project license?** The verdict is accepted only when validators agree on that bo
 comparative equivalence on the decisive field, not on the wording of the reasoning or the exact
 offending list. The offending licenses and reasoning are advisory; `conflict` is the consensus output.
 
-- **Contract (Bradbury, chain 4221):** `DEPLOY_PENDING`
-- **Explorer:** https://explorer-bradbury.genlayer.com/contract/DEPLOY_PENDING
+- **Contract (Bradbury, chain 4221):** `0xAF6f834f40D5855e9B18e1c199Bff16B1B1f72E7`
+- **Explorer:** https://explorer-bradbury.genlayer.com/contract/0xAF6f834f40D5855e9B18e1c199Bff16B1B1f72E7
 
 ---
 
@@ -76,5 +76,5 @@ state-transition and re-check guards (the shim auto-inits `TreeMap` and varies `
 genlayer deploy --contract contracts/license_guard.py
 ```
 
-After deployment, replace every `DEPLOY_PENDING` token (in this README and `.env.example`) with the
+After deployment, replace every `0xAF6f834f40D5855e9B18e1c199Bff16B1B1f72E7` token (in this README and `.env.example`) with the
 deployed contract address.
